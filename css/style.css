@@ -2264,6 +2264,9 @@ margin: 1em 0;
 /* responsive */
 
 @media screen and (max-width: 767px){
+.home{
+    height: 75vh;
+}
     .waveimg{
         transform: translate(0px, 261px);
     }
