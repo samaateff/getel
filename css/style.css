@@ -445,11 +445,12 @@ nav{
     transform: translate(0em, 4em);
 }
 .waveimg{
-    transform: translate(0px, 338px);
+    /* transform: translate(0px, 338px); */
     /* position: absolute; */
+    transform: translate(0px, -6em);
     width: 100%;
-    bottom: 0;
-    top: 20em;
+    /* bottom: 0; */
+    /* top: 20em; */
     height: 100px;
 }
 .homeimg{
@@ -2264,12 +2265,7 @@ margin: 1em 0;
 /* responsive */
 
 @media screen and (max-width: 767px){
-.home{
-    height: 75vh;
-}
-    .waveimg{
-        transform: translate(0px, 290px);
-    }
+
     .navbtnslione{
         margin: auto;
         text-align: center;
